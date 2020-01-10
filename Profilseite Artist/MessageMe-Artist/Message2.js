@@ -7,16 +7,16 @@ export default {
         return {
             participants: [
                 {
-                    name: 'Arnaldo',
+                    name: 'Metin',
                     id: 1
                 },
                 {
-                    name: 'José',
+                    name: 'Laura',
                     id: 2
                 }
             ],
             myself: {
-                name: 'Matheus S.',
+                name: 'Sabrina',
                 id: 3
             },
             messages: [
@@ -43,7 +43,7 @@ export default {
             placeholder: 'send your message',
             colors:{
                 header:{
-                    bg: '#d30303',
+                    bg: '#8a8982',
                     text: '#fff'
                 },
                 message:{
@@ -52,11 +52,11 @@ export default {
                         text: '#bdb8b8'
                     },
                     others: {
-                        bg: '#fb4141',
+                        bg: '#8a8982',
                         text: '#fff'
                     }
                 },
-                submitIcon: '#b91010'
+                submitIcon: '#8a8982'
             },borderStyle: {
                 topLeft: "10px",
                 topRight: "10px",
