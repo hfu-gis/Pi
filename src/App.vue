@@ -1,67 +1,49 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
+    <v-app-bar dark
+               absolute
+               color="dark grey"
+
+               height="50"
     >
-      <div class="d-flex align-center">
+      <router-link to="/home">
         <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
+                src="./assets/images/Logo-png.png"
+                justify="center"
+                max-height="175"
+                max-width="250"
 
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
-
+                contain>
+        </v-img>
+      </router-link>
       <v-spacer/>
-        <v-btn text to="/login">
-          Login
+      <v-toolbar-items>
+        <v-btn text router to="/login">
+          <v-icon left>mdi-account</v-icon> Login
+        </v-btn>
+        <v-btn text router to="/Registrieren">
+          <v-icon left>mdi-account-edit</v-icon> Register
         </v-btn>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
+        <v-text-field
+                flat
+                solo-inverted
+                hide-details
+                prepend-inner-icon="mdi-magnify"
+                label="Search"
+                class="hidden-sm-and-down"
+        />
+      </v-toolbar-items>
     </v-app-bar>
 
-    <v-content>
-      <router-view />
-    </v-content>
+    <v-main>
+      <v-app>
+        <router-view></router-view>
+      </v-app>
+    </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-
-export default {
-  name: 'App',
-
-  components: {
-    HelloWorld,
-  },
-
-  data: () => ({
-    //
-  }),
-  created() {
-    this.$router.push({path: '/home'})
-  }
-};
 </script>
 import footerNew from 'Footer';
