@@ -64,3 +64,4 @@ export default {
   }
 };
 </script>
+import footerNew from 'Footer';

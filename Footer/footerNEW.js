@@ -1,6 +1,6 @@
 <template>
 <v-footer
-color="grey"
+color="darkgrey"
 padless
 >
 <v-row
