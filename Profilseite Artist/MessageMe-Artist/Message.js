@@ -1,4 +1,4 @@
-import { Chat } from 'vue-quick-chat'
+import { Chat } from 'node_modules/vue-quick-chat'
 export default {
     components: {
         Chat
