@@ -3,7 +3,7 @@
 <v-btn flat slot="activator" class="success">Add new project<v/v-btn>
     <v-card>
         <v-card-title>
-            <h2>Datenschutzrichtlinien</h2>
+            <h2>data protection guidelines</h2>
         </v-card-title>
         //content
     </v-card>
