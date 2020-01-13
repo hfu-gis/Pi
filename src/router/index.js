@@ -7,7 +7,8 @@ import Startseite from '../App';
 import Profilseite from '../';
 import Profilseite Artist from '../';
 import Profilseite Studio from '../';
-import
+import footerNEW from '../Footer';
+
 
 Vue.use(VueRouter)
 

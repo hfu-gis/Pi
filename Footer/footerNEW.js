@@ -1,3 +1,5 @@
+import {footer} from 'company-footer.vue';
+
 <template>
 <v-footer
 color="darkgrey"
@@ -34,9 +36,11 @@ export default {
             'Home',
             'About Us',
             'FAQ',
+            'Contact Us',
             'Services',
             'Data protection guidelines',
-            'Contact Us',
+            'Cookies',
+            'Disclosure',
         ],
     }),
 }
