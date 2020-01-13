@@ -38,23 +38,53 @@
     </v-app-bar>
 
 
-      <v-app>
-        <router-view></router-view>
-      </v-app>
+      <v-footer
+              position absolute
+              color="dark grey"
+              padless
 
+
+      >
+        <v-row
+                align="end"
+                justify="center"
+                no no-gutters
+
+        >
+          <v-btn
+                  v-for="link in links"
+                  :key="link"
+                  color="white"
+                  text
+                  rounded
+                  class="my-2"
+          >
+            {{ link }}
+          </v-btn>
+          <v-col
+                  class="dark grey py-4 text-center white--text"
+                  cols="12"
+          >
+            {{ new Date().getFullYear() }} — <strong>SESSIONS</strong>
+          </v-col>
+        </v-row>
+      </v-footer>
   </v-app>
 </template>
 
+
+
 <script>
+  export default {
+    data: () => ({
+      links: [
+        'Home',
+        'About Us',
+        'Contact Us',
+      ],
+    }),
+  }
 </script>
 
-<style>
-  main {
-    background-image: url("../src/assets/images/startseite.jpg.jpg");
-    background-size: cover;
-
-  }
 
 
-
-</style>
