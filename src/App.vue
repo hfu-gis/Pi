@@ -4,14 +4,14 @@
                absolute
                color="dark grey"
 
-               height="50"
+               height="55"
     >
       <router-link to="/home">
         <v-img
                 src="./assets/images/Logo-png.png"
-                justify="center"
-                max-height="175"
-                max-width="250"
+
+                max-height="150"
+                max-width="325"
 
                 contain>
         </v-img>
@@ -26,25 +26,35 @@
         </v-btn>
 
         <v-text-field
-                flat
+                depressed
+                position center
                 solo-inverted
                 hide-details
                 prepend-inner-icon="mdi-magnify"
                 label="Search"
-                class="hidden-sm-and-down"
+
         />
       </v-toolbar-items>
     </v-app-bar>
 
-    <v-main>
+
       <v-app>
         <router-view></router-view>
       </v-app>
-    </v-main>
+
   </v-app>
 </template>
 
 <script>
 </script>
 
+<style>
+  main {
+    background-image: url("../src/assets/images/startseite.jpg.jpg");
+    background-size: cover;
 
+  }
+
+
+
+</style>

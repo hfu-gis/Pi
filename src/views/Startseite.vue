@@ -1,25 +1,35 @@
+
 <template>
+    <v-row align="center">
+        <v-row justify="center">
 
-        <v-app-bar app right dark
-                   src=background color="dark grey">
-            <v-toolbar-title>SESSIONS</v-toolbar-title>
-            <v-spacer />
-            <v-btn icon>
-                <v-icon>mdi-magnify</v-icon>
-            </v-btn>
-
-            <v-btn icon :to="{name:'Profilseite'}">
-                <v-icon>mdi-account</v-icon>
-            </v-btn>
-
-            <v-btn v-if="!isLoggedIn" icon :to="{name:'Login'}">
-                <v-icon>mdi-login</v-icon>
-            </v-btn>
-
-        </v-app-bar>
+            <v-col
+                    cols="60"
+                    sm="90">
 
 
 
+                <v-btn depressed  x-large class="grey white--text">Artists</v-btn>
+                <v-divider class="ma-2"></v-divider>
+
+                <v-btn depressed  x-large class="grey white--text">Producer</v-btn>
+                <v-divider class="ma-2"></v-divider>
+
+                <v-btn depressed  x-large class="grey white--text">Studio</v-btn>
+
+            </v-col>
+
+
+        </v-row>
+    </v-row>
 
 </template>
 
+<script>
+    export default {
+
+
+    }
+
+
+</script>
