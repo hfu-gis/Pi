@@ -1,4 +1,5 @@
-import {footer} from 'company-footer.vue';
+*//
+// import {footer} from 'company-footer.vue';
 
 <template>
 <v-footer
@@ -45,3 +46,4 @@ export default {
     }),
 }
 </script>
+*//

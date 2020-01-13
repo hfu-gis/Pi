@@ -79,8 +79,12 @@
     data: () => ({
       links: [
         'Home',
-        'About Us',
         'Contact Us',
+        'FAQ',
+        'Services',
+        'Data protection guidelines',
+        'Cookies',
+        'Disclosure',
       ],
     }),
   }
