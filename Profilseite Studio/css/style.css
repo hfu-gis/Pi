@@ -133,6 +133,13 @@ body {
                 border-bottom: solid;
                 border-color: #009999;
                 border-width: 3px; }
+              .track_nav .container .row .nav_text .menu ul li a {
+                color: #333333; }
+                .track_nav .container .row .nav_text .menu ul li a:hover, .track_nav .container .row .nav_text .menu ul li a:focus {
+                  color: #009999;
+                  text-decoration-line: none; }
+                .track_nav .container .row .nav_text .menu ul li a:active, .track_nav .container .row .nav_text .menu ul li a:visited {
+                  color: #333333; }
             .track_nav .container .row .nav_text .menu ul .active {
               color: #009999;
               border-bottom: solid;
