@@ -153,6 +153,16 @@ body{
               padding-top: 12px;
               height: 46px;
               width: 125px;
+              a{
+                color: #333333;
+                &:hover,&:focus{
+                  color: #009999;
+                  text-decoration-line: none;
+                }
+                &:active,&:visited{
+                  color: #333333;
+                }
+              }
             }
           }
         }

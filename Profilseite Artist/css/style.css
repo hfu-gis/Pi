@@ -84,7 +84,7 @@ body {
         font-family: Arial, sans-serif;
         padding-left: 9px; }
       .banner .row .banner-inner button {
-        background-color: #009999;
+        background-color: #f50;
         color: #FFF;
         font-size: 22px;
         height: 60px;
@@ -129,16 +129,23 @@ body {
               height: 46px;
               width: 125px; }
               .track_nav .container .row .nav_text .menu ul li:hover, .track_nav .container .row .nav_text .menu ul li:focus {
-                color: #009999;
+                color: #f50;
                 border-bottom: solid;
-                border-color: #009999;
+                border-color: #f50;
                 border-width: 3px; }
+              .track_nav .container .row .nav_text .menu ul li a {
+                color: #333333; }
+                .track_nav .container .row .nav_text .menu ul li a:hover, .track_nav .container .row .nav_text .menu ul li a:focus {
+                  color: #009999;
+                  text-decoration-line: none; }
+                .track_nav .container .row .nav_text .menu ul li a:active, .track_nav .container .row .nav_text .menu ul li a:visited {
+                  color: #333333; }
 
 .beats {
   width: 1240px; }
   .beats h2 {
     font-size: 20px;
-    color: #009999;
+    color: #f50;
     font-variant: small-caps; }
   .beats canvas {
     background-color: #212529;
