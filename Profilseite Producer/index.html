@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vitra</title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js/dist/wavesurfer.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="main_nav">
+      <div class="container">
+        <div class="row">
+          <div class="nav_text">
+            <div class="col-md-12 menu">
+              <ul>
+                <li class="logo">Logo</li>
+                <li>
+                  <a>Start</a>
+                </li>
+                <li>
+                  <a>Chats</a>
+                </li>
+                <li>
+                  <a>Settings</a>
+                </li>
+                <li class="searching">
+                  <input placeholder="Searching">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="banner container">
+      <div class="row">
+        <div class="col-md-3 banner-inner">
+          <img src="css/img/profil.jpg" height="210px" width="210px">
+        </div>
+        <div class="col-md-2 banner-inner name">
+          <h2>Metin</h2>
+          <p>Producer, 21, Stuttgart</p>
+        </div>
+        <div class="col-md-7 banner-inner">
+          <button type="button" class="btn">Message me</button>
+        </div>
+      </div>
+    </div>
+    <div class="track_nav">
+      <div class="container">
+        <div class="row">
+          <div class="nav_text">
+            <div class="col-md-12 menu">
+              <ul>
+                <li>
+                  <a>All beats</a>
+                </li>
+                <li>
+                  <a>Playlist</a>
+                </li>
+                <li>
+                  <a href="/Projekt/Profilseite%20Artist/index.html">Artist</a>
+                </li>
+                <li>
+                  <a href="/Projekt/Profilseite%20Studio/index.html">Studio</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="beats">
+        <h2>Track 1</h2>
+        <canvas width="1240" height="120"></canvas>
+        <audio controls id="player1">
+          <source src="css/tracks/FC.mp3">
+        </audio>
+      </div>
+      <div class="beats">
+        <h2>Track 2</h2>
+        <canvas width="1240" height="120"></canvas>
+        <audio controls id="player2">
+          <source src="css/tracks/Loyal.mp3">
+        </audio>
+      </div>
+      <div class="beats">
+        <h2>Track 3</h2>
+        <canvas width="1240" height="120"></canvas>
+        <audio controls id="player3">
+          <source src="css/tracks/X.mp3">
+        </audio>
+      </div>
+      <div class="beats">
+        <h2>Track 4</h2>
+        <canvas width="1240" height="120"></canvas>
+        <audio controls id="player4">
+          <source src="css/tracks/Bunkin.mp3">
+        </audio>
+      </div>
+    </div>
+    <!-- <script src="index.js"></script> -->
+  </body>
+</html>
