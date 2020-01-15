@@ -84,7 +84,7 @@ body {
         font-family: Arial, sans-serif;
         padding-left: 9px; }
       .banner .row .banner-inner button {
-        background-color: #f50;
+        background-color: #009999;
         color: #FFF;
         font-size: 22px;
         height: 60px;
@@ -129,9 +129,9 @@ body {
               height: 46px;
               width: 125px; }
               .track_nav .container .row .nav_text .menu ul li:hover, .track_nav .container .row .nav_text .menu ul li:focus {
-                color: #f50;
+                color: #009999;
                 border-bottom: solid;
-                border-color: #f50;
+                border-color: #009999;
                 border-width: 3px; }
               .track_nav .container .row .nav_text .menu ul li a {
                 color: #333333; }
@@ -145,7 +145,7 @@ body {
   width: 1240px; }
   .beats h2 {
     font-size: 20px;
-    color: #f50;
+    color: #009999;
     font-variant: small-caps; }
   .beats canvas {
     background-color: #212529;
