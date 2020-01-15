@@ -1,0 +1,90 @@
+body {
+  background-color: #f2f2f2; }
+
+.container {
+  max-width: 1240px;
+  padding: 0; }
+
+/*Navigation Bar Style (Schrift, Container, Content)*/
+.main_nav {
+  height: 5vh;
+  background-color: #333333; }
+  .main_nav .container {
+    height: 100%; }
+    .main_nav .container .row {
+      height: 100%; }
+      .main_nav .container .row .nav_text {
+        height: 100%; }
+        .main_nav .container .row .nav_text .menu {
+          display: flex;
+          height: 100%; }
+          .main_nav .container .row .nav_text .menu:hover, .main_nav .container .row .nav_text .menu:focus {
+            color: #999; }
+          .main_nav .container .row .nav_text .menu ul {
+            float: left;
+            width: 100%;
+            display: table-row;
+            padding-left: 0;
+            margin: 0;
+            color: #cccccc; }
+            .main_nav .container .row .nav_text .menu ul .logo {
+              font-style: italic;
+              width: 184px;
+              border-left: solid;
+              border-width: 1px;
+              border-color: #000; }
+            .main_nav .container .row .nav_text .menu ul li {
+              list-style-type: none;
+              cursor: pointer;
+              display: inline;
+              display: table-cell;
+              text-align: center;
+              font-family: Arial, sans-serif;
+              font-size: 14px;
+              padding-bottom: 12px;
+              padding-top: 12px;
+              height: 46px;
+              width: 125px;
+              border-right-style: solid;
+              border-width: 1px;
+              border-color: #000; }
+              .main_nav .container .row .nav_text .menu ul li:hover, .main_nav .container .row .nav_text .menu ul li:focus {
+                color: #FFF; }
+            .main_nav .container .row .nav_text .menu ul .searching {
+              padding: 9px;
+              width: 250px; }
+              .main_nav .container .row .nav_text .menu ul .searching input {
+                background-color: #e5e5e5;
+                border-radius: 4px;
+                border: none;
+                height: 28px;
+                padding: 5px;
+                width: 100%; }
+
+/*  Hintergrundbild sowie Responsive Design + Definition der Überschriften   */
+.banner {
+  height: 95vh;
+  width: 100vw;
+  background-image: url("img/Recording.jpg");
+  background-size: 100% auto;
+  display: table; }
+  .banner .banner-inner {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; }
+    .banner .banner-inner .btn {
+      background-color: #fff; }
+    .banner .banner-inner .button_row {
+      margin-top: 5vh;
+      width: 40%; }
+      .banner .banner-inner .button_row .btn {
+        background-color: #009999; }
+h1{
+
+}
+h2{
+  font-family: Dubai;
+  font-size: 40px;
+  color: #000000;
+}
+
